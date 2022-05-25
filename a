@@ -1,0 +1,222 @@
+{ "t":"2022-05-25 02:11:36.400", "info":{
+ "event": "AUTHENTICATION_AUTO_LOGIN"
+} },
+{ "t":"2022-05-25 02:11:36.403", "info":{
+ "event": "INITIALIZATION_SUCCESSFUL"
+} },
+{ "t":"2022-05-25 02:11:52.856", "info":{
+ "event": "AUTHENTICATION_REQUIRES_CAPTCHA"
+} },
+{ "t":"2022-05-25 02:11:52.857", "info":{
+ "event": "AUTHENTICATION_FAILED",
+ "data": {
+  "error": {
+   "code": "ErrCaptchaRequiredLauncher",
+   "payload": {
+    "session_id": "983c2b16f1c48e601c9c025b3e3da07d",
+    "session_name": "Rsi-Token"
+   }
+  }
+ }
+} },
+{ "t":"2022-05-25 02:11:52.928", "info":{
+ "event": "AUTHENTICATION_WITH_MFA"
+} },
+{ "t":"2022-05-25 02:12:06.370", "info":{
+ "event": "AUTHENTICATION_REQUIRES_MFA",
+ "data": {
+  "mfaAuthenticationInfo": {
+   "deviceInfo": {
+    "name": "My Device",
+    "registered": false,
+    "type": "computer"
+   },
+   "type": "authenticator"
+  },
+  "privileged": false,
+  "remember": true
+ }
+} },
+{ "t":"2022-05-25 02:12:32.952", "info":{
+ "event": "AUTHENTICATION_SUCCESSFUL",
+ "data": {
+  "heapAccountId": {
+   "cookie": "_rsi_device",
+   "key": "X-RSI-Device"
+  }
+ }
+} },
+{ "t":"2022-05-25 02:12:33.225", "info":{
+ "event": "SELECT_GAME_SUCCESSFUL",
+ "data": {
+  "channelId": "LIVE",
+  "gameId": "SC",
+  "platform": "prod"
+ }
+} },
+{ "t":"2022-05-25 02:12:53.221", "info":{
+ "event": "ADD_GAME",
+ "data": {
+  "channelId": "LIVE",
+  "forcePatcher": false,
+  "gameId": "SC",
+  "platformId": "prod"
+ }
+} },
+{ "t":"2022-05-25 02:12:53.363", "info":"Installing Star Citizen LIVE 3.17.1-live.8073467 at C:\\Program Files (x86)\\Roberts Space Industries\\StarCitizen" },
+{ "t":"2022-05-25 02:12:53.415", "info":"Starting download of base pack (SC LIVE 3.17.1-live.8073467) in C:\\Program Files (x86)\\Roberts Space Industries\\StarCitizen" },
+{ "t":"2022-05-25 02:12:53.415", "info":"Initial download start" },
+{ "t":"2022-05-25 02:12:53.425", "info":{
+ "event": "INSTALLER@INSTALL",
+ "data": {
+  "gameInformation": {
+   "channelId": "LIVE",
+   "channelName": "Live Release",
+   "executable": "StarCitizen_Launcher.exe",
+   "forcePatcher": false,
+   "gameId": "SC",
+   "gameName": "Star Citizen",
+   "installDir": "StarCitizen",
+   "launchOptions": "-no_login_dialog -trace_enable_service 1 -config_enable_service 1",
+   "libraryFolder": "C:\\Program Files (x86)\\Roberts Space Industries",
+   "manifest": {
+    "signatures": "Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2J1aWxkcy5yb2JlcnRzc3BhY2VpbmR1c3RyaWVzLmNvbVwvbWFuaWZlc3RzXC83MEEyMDYxRUQ0REY2NzIzMDExQTU2NjVDOURDRDBENzkyRUJEMDVEQjY5QjM2MDVEQ0EzOTlDN0I3NUYxMkRFIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjUzNDYzMDczfX19XX0_&Signature=HRdqB0iRGUOkJC7kyAVpQCgV1k2UsEGZm-ll-e3Fn0u7L6dCC~EZ173amYbvqQulfQk6jgmT6Q8Lw22hVz-JRlLCfhsDi6ofPyrVDKDdSJPGQRYksIQZH17RmUvjKVYnWabUR1KoMeJVpCkaNmsucvNQivznAtV~7PEW--HBIRqZI4zjfvtGuUJJQoXF5GC8roNTtQZhKflyh6egzCnAVlFgQYYs1aEK1YPdTRba7IPktHCDfbXjUHf08C~YTx9oFtch6qgqdFq4KOlvCsoSN2veF6frEH9d6DoNWt7YVHX8HR8tnEux2hsA00A4ZIaVFgDt2bzP6z1UhmG3XJqOig__&Key-Pair-Id=APKAJXM2QEUFXVY4GN6Q",
+    "url": "https://builds.robertsspaceindustries.com/manifests/70A2061ED4DF6723011A5665C9DCD0D792EBD05DB69B3605DCA399C7B75F12DE"
+   },
+   "network": {
+    "mesh": {
+     "channels": {
+      "default": {
+       "endpoint": "dns:///pub-sc-alpha-317x-8073467.test1.cloudimperiumgames.com:443",
+       "transport_security": true
+      }
+     }
+    }
+   },
+   "objects": {
+    "signatures": "Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL29iamVjdHMucm9iZXJ0c3NwYWNlaW5kdXN0cmllcy5jb21cLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NTM2MzU1NzN9fX1dfQ__&Signature=HMyKoNp7M4RSQJgOWJF0uJDOB-EsifFHhInsLC13X6oENSP-D96pAT5oBXSOs~VBpCyTMrJHvrK4GgUAdw9OaYqsAIERVXmKei0yIl0TcgQ0~r2-PIlXjkzt2PxXuKCIUuXbU1P1fYQMlxCEg~NzuyUjbH3CEzyvo7gPAXZ~Ow9Hp99iLTjRaSF3VQicdVN5LgycfhYUQ6ByaME35jaR0qmScM6~fobPrg9Jk-QlKNl1LEJBy6XoSS-j3fiWouzB78VshEMyPA4fpZ0cDfFcNv5VeTt1mlIy3sclgggFCTUS538N-RrArDCwSpewmtHC9PWvda~rhZbO1jqkGyGxEA__&Key-Pair-Id=APKAJXM2QEUFXVY4GN6Q",
+    "url": "https://objects.robertsspaceindustries.com"
+   },
+   "p4kBase": {
+    "signatures": "Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2J1aWxkcy5yb2JlcnRzc3BhY2VpbmR1c3RyaWVzLmNvbVwvYmFzZVwvc2MtYWxwaGEtMy4xNC54XC9EYXRhX0tpY2tzdGFydF8yMDIwMDgwNl8yLnA0ayIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1MzQ5ODc3M319fV19&Signature=aLW4m1-q1m1HAiD747tvsBpKBkOh~X2kXzxqY3eSgFm-8FCRYgqKBLSkVy2Lcdd8RKmUGurWvp4CDiGAAbvMVZhUDPcGq6QtU0YAOXms4FutvyOs6NfP6xsJsuTS5eRtXpAunQdKC3-nHGjK2ei6V0-ENsFhsmCo39gkpsHe5d13jKDwvffC1mN2rXzXaoIyeL-F7KYPEvrEvtrdlw1J09159wb6Jcuc9nyzFzIeU8SdaJQBSUwNHG3VoBl3vqVeoGJ-D8VTuhzeC8KPFsVd~bOHH9-0lNFw~qNJZODjuHeuwuqRhvnsCK8QWF5e5mh9oNslw~hpMnxoNM7AEvVg~Q__&Key-Pair-Id=APKAJXM2QEUFXVY4GN6Q",
+    "url": "https://builds.robertsspaceindustries.com/base/sc-alpha-3.14.x/Data_Kickstart_20200806_2.p4k"
+   },
+   "p4kBaseVerificationFile": {
+    "signatures": "Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2J1aWxkcy5yb2JlcnRzc3BhY2VpbmR1c3RyaWVzLmNvbVwvYmFzZVwvc2MtYWxwaGEtMy4xNC54XC9EYXRhX0tpY2tzdGFydF8yMDIwMDgwNl8yLnA0ay52ZiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1MzQ5ODc3M319fV19&Signature=ccn5Yc5pbKHe0uSqzKsLLF4ymXeKdBY5Q9WYbrt8x5tkHnScWkRqY-ivJkOBUVeLfve0OT24wEZey9s8iadADHsbAgKfzx1Ukn2wLf1BG2VD70RzzrqTEUaNRFIk8mfqqjnjW~Eio0s9JW7-eZVxExvd8yJn6BFNkvLrCqc3eT3N5RqBUm0xhkVfFfFq0LwIKL9sF4h~rVq33lO8niwpey1bXaUvSbKb0OGcmEqyyBCQdLFU1QvUQsOnBSNAsz6zByYN3b2p8VeJsP6Wn7dzn1Xyj4U8ZPF4x7s-hKd1lbahzEfl741GFJtZiz~wtzVINDy5wfAi078gnLnrs25ouw__&Key-Pair-Id=APKAJXM2QEUFXVY4GN6Q",
+    "url": "https://builds.robertsspaceindustries.com/base/sc-alpha-3.14.x/Data_Kickstart_20200806_2.p4k.vf"
+   },
+   "platformId": "prod",
+   "platformURL": "https://robertsspaceindustries.com",
+   "servicesEndpoint": "https://pub-sc-alpha-317x-8073467.test1.cloudimperiumgames.com:443",
+   "universeHost": "public.universe.robertsspaceindustries.com",
+   "universePort": "8000",
+   "verify": false,
+   "version": "8073468",
+   "versionLabel": "3.17.1-live.8073467"
+  }
+ }
+} },
+{ "t":"2022-05-25 02:12:53.690", "info":"Verification header found for initial download: Filename: Data_Kickstart_20200806_2.p4k FileSize: 15009779712" },
+{ "t":"2022-05-25 02:16:37.172", "info":"************************INITIAL DOWNLOAD DONE" },
+{ "t":"2022-05-25 02:16:37.173", "info":"Anti Cheat files not available" },
+{ "t":"2022-05-25 02:16:37.173", "info":"Initial pack installed (SC LIVE 3.17.1-live.8073467) in C:\\Program Files (x86)\\Roberts Space Industries\\StarCitizen\\LIVE" },
+{ "t":"2022-05-25 02:16:37.183", "info":{
+ "event": "ADD_GAME",
+ "data": {
+  "channelId": "LIVE",
+  "forcePatcher": false,
+  "gameId": "SC",
+  "platformId": "prod"
+ }
+} },
+{ "t":"2022-05-25 02:16:37.186", "info":{
+ "event": "INSTALLER@INSTALL_SUCCESSFUL",
+ "data": {
+  "statistics": {
+   "channelId": "LIVE",
+   "endTime": 1653462997173,
+   "gameId": "SC",
+   "isInitialDownload": true,
+   "lastPeriodSize": 14987208394,
+   "lastPeriodTime": 1653462996626,
+   "lastSpeed": 70925300.49751244,
+   "looseFiles": {
+    "files": 0,
+    "size": 0
+   },
+   "manifest": {
+    "size": 0
+   },
+   "objectFiles": {
+    "files": 0,
+    "size": 0
+   },
+   "startTime": 1653462773415
+  }
+ }
+} },
+{ "t":"2022-05-25 02:16:37.258", "info":"Installing Star Citizen LIVE 3.17.1-live.8073467 at C:\\Program Files (x86)\\Roberts Space Industries\\StarCitizen" },
+{ "t":"2022-05-25 02:16:37.258", "info":"Starting delta update (SC (LIVE 3.17.1-live.8073467) in C:\\Program Files (x86)\\Roberts Space Industries\\StarCitizen" },
+{ "t":"2022-05-25 02:16:37.259", "info":"************************PATCHING DOWNLOAD START" },
+{ "t":"2022-05-25 02:16:37.263", "info":"************************EAC DIRECTORY SUCCESSFULLY DELETED" },
+{ "t":"2022-05-25 02:16:37.265", "info":{
+ "event": "INSTALLER@INSTALL",
+ "data": {
+  "gameInformation": {
+   "channelId": "LIVE",
+   "channelName": "Live Release",
+   "executable": "StarCitizen_Launcher.exe",
+   "forcePatcher": false,
+   "gameId": "SC",
+   "gameName": "Star Citizen",
+   "installDir": "StarCitizen",
+   "launchOptions": "-no_login_dialog -trace_enable_service 1 -config_enable_service 1",
+   "libraryFolder": "C:\\Program Files (x86)\\Roberts Space Industries",
+   "manifest": {
+    "signatures": "Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2J1aWxkcy5yb2JlcnRzc3BhY2VpbmR1c3RyaWVzLmNvbVwvbWFuaWZlc3RzXC83MEEyMDYxRUQ0REY2NzIzMDExQTU2NjVDOURDRDBENzkyRUJEMDVEQjY5QjM2MDVEQ0EzOTlDN0I3NUYxMkRFIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjUzNDYzMjk3fX19XX0_&Signature=XoFDyQcEqHqp7lTt7ODvFWZlUDV4x22~qj2qXZxQ4X5T8OEvUUuHHia1y4j4e6EyzUCq7WJ-NYi75MMOLlHYHOsDPrsYpiHfD2OkUDdTjYj6nIV8eSc4V2mSxWvvrFVaRQN6eB2~1t3~WuFPhv7IyGPOqAYZ3lByhefEHx~9AuErP0c564xC56hJLzMV5eW5dn1Rn4ym-QXfEfR0Q6RuQlvjW9MBPs8fy7mLG8fFcyP8HNieYOBN5VqcxXX8VaN75uIBHLFxjXoH6XGdIPlz0JpNjIjgvfpMMqk~hYEtrurqPe9d0OGZMSRg12P8CbWvpNUR-GPIs-MCp19pi4xjNw__&Key-Pair-Id=APKAJXM2QEUFXVY4GN6Q",
+    "url": "https://builds.robertsspaceindustries.com/manifests/70A2061ED4DF6723011A5665C9DCD0D792EBD05DB69B3605DCA399C7B75F12DE"
+   },
+   "network": {
+    "mesh": {
+     "channels": {
+      "default": {
+       "endpoint": "dns:///pub-sc-alpha-317x-8073467.test1.cloudimperiumgames.com:443",
+       "transport_security": true
+      }
+     }
+    }
+   },
+   "objects": {
+    "signatures": "Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL29iamVjdHMucm9iZXJ0c3NwYWNlaW5kdXN0cmllcy5jb21cLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NTM2MzU3OTd9fX1dfQ__&Signature=VnS9xqz8WwEOcBvl6lWGhzCdwLeVIhTAZK1sDEm031HCp7Ll3odFPmrfgLgJARc~1A3V5M7Ly-JF9qilXwpkEM0t55zUTG688alTxh0U~mQbUxdIH8DRUTdbCMRWk-38AoUZVF4z-uE-myqs1HCcocLz~ythX78oXnG4ZJUP~hRp1Tx3j7HUJJyGmhYZexWHhYRVsvs7za6S3RvjVrfYSWe8RV6PA1fZ7VUXtjaTr8Ed5VHH8Q1A9fpQrTtzUVTtBhKh3LXC2KiX87Zz~fbKcTDO~oo6ows1c0ez9jwbxKMklcSi4uGo~5DAnBR9wrNq0GScZX6wK~fHr11gki0XGA__&Key-Pair-Id=APKAJXM2QEUFXVY4GN6Q",
+    "url": "https://objects.robertsspaceindustries.com"
+   },
+   "p4kBase": {
+    "signatures": "Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2J1aWxkcy5yb2JlcnRzc3BhY2VpbmR1c3RyaWVzLmNvbVwvYmFzZVwvc2MtYWxwaGEtMy4xNC54XC9EYXRhX0tpY2tzdGFydF8yMDIwMDgwNl8yLnA0ayIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1MzQ5ODk5N319fV19&Signature=P8Fco7q~pTIEUbcmUZaXEAfqxi9iYSdujtEhNFdDSXjfHFf3No~fZHGCSY2MwE~ql1yFi3HDpy1Ka1waJH8XgS1nzZbfD6piQtDdMt07A4RVXkWBCmwS6AXnTUy2kFjJZyVOspzw3MEh1yrD2lWOGGcxhv~pNA6HFcnZEJRYJ2NZN3fISOHweoyvHjeEAJIQpxT5qMj926JHLX9qcgX2wi7eFMYJC2KQZcQkg5l4LBb8s3J6oLCXmXgxW5H5Zn4iK736H8yYyEXJL~bNru2q~a7DZf~6dkzzW78op5NfMZrUwnXyzw-gsIIBS43V40SyFSa~R3jzPBYFloyE5lZ7Qw__&Key-Pair-Id=APKAJXM2QEUFXVY4GN6Q",
+    "url": "https://builds.robertsspaceindustries.com/base/sc-alpha-3.14.x/Data_Kickstart_20200806_2.p4k"
+   },
+   "p4kBaseVerificationFile": {
+    "signatures": "Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6XC9cL2J1aWxkcy5yb2JlcnRzc3BhY2VpbmR1c3RyaWVzLmNvbVwvYmFzZVwvc2MtYWxwaGEtMy4xNC54XC9EYXRhX0tpY2tzdGFydF8yMDIwMDgwNl8yLnA0ay52ZiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTY1MzQ5ODk5N319fV19&Signature=U00GHqfgcuqgZEyMf00PC7-gkshNFRpJ1kR-4a8FP4ZzxzkbiOq61hCzOyQW2LaO05JJst9yIcl5Fe71CW5ELfFCkojKxKUPJdni32RdIfILe~TDx7KThl4J~6T0kYY8xzHT-~5z~HGSKeCBUBkuMfLP0pMuYmT~4bcdjkVnjN40PegwBxkVeGb9A0GsgkLWB85ilruiSIKszNribwIXt8xbAuWmqjdBJ9ywQOwJeTicX5pA5AMu6kFGv3RRUWRQtf2u35A0xvd9cagi3YSIMMq~o~jnlJT4tIScQWHDOnqigB19g0pWEEZNGzaTqeFw0hIxqFTV~s~jyIqzCBMkMw__&Key-Pair-Id=APKAJXM2QEUFXVY4GN6Q",
+    "url": "https://builds.robertsspaceindustries.com/base/sc-alpha-3.14.x/Data_Kickstart_20200806_2.p4k.vf"
+   },
+   "platformId": "prod",
+   "platformURL": "https://robertsspaceindustries.com",
+   "servicesEndpoint": "https://pub-sc-alpha-317x-8073467.test1.cloudimperiumgames.com:443",
+   "universeHost": "public.universe.robertsspaceindustries.com",
+   "universePort": "8000",
+   "verify": false,
+   "version": "8073468",
+   "versionLabel": "3.17.1-live.8073467"
+  }
+ }
+} },
+{ "t":"2022-05-25 02:21:03.870", "info":"Error installing at C:\\Program Files (x86)\\Roberts Space Industries\\StarCitizen\\LIVE: Error" },
+{ "t":"2022-05-25 02:21:03.874", "error":"" },
+{ "t":"2022-05-25 02:21:03.878", "info":{
+ "event": "INSTALLER@INSTALL_FAILED",
+ "data": {
+  "error": {
+   "message": "",
+   "name": "InstallerError"
+  }
+ }
+} },
